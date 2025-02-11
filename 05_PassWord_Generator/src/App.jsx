@@ -65,7 +65,7 @@ function App() {
           />
           <button
             className="px-3 py-1 bg-blue-700 text-white rounded-r-xl shrink-0  hover:bg-blue-400 cursor-pointer hover:transition-all hover:transform-view"
-            // onClick={copyPasswordToClipboard}
+            onClick={copyPasswordToClipboard}
           >
             Copy
           </button>

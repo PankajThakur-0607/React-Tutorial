@@ -17,7 +17,7 @@ function App() {
         TailWind CSS Test{" "}
       </h1>
       <Card TutorialName="React Tutorial | Pankaj Thakur" myObj={obj} />
-      <Card TutorialName="Monika Singh" />
+      <Card TutorialName="Monika Singh" myarr={arr} />
     </>
   );
 }

@@ -26,6 +26,9 @@ function App() {
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
         backgroundImage: `url('https://images.pexels.com/photos/30173400/pexels-photo-30173400/free-photo-of-stunning-aurora-borealis-over-snowy-mountains.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')`,
+        objectFit:"contain",
+        width:"100vw",
+        height:"100vh"
       }}
     >
       <div className="w-full">
